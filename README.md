@@ -4,7 +4,7 @@ Axatrikx Project
 A PHP website which retrieves all existing repositories from a github user.
 Makes use of Github API v3
 
-Website: [http://projects.axatrikx.com](axatrikx.com)  
+Website: [http://projects.axatrikx.com](http://projects.axatrikx.com)  
 
 Details
 -----------
