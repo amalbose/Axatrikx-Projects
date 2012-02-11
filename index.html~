@@ -13,9 +13,7 @@
     </head>
     <body>
     <div class="wrapper">
-    	<div id="link_container">
-			hello..
-    	</div>
+    	<div id="link_container"></div>
     </div>  
     </body>
     </html>
