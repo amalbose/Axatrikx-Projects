@@ -9,7 +9,6 @@ function getAllProjects(){
 
 	$repositories=$jsonResults['repositories'];
 	$noOfRepositories = sizeof($repositories);
-	
 
 	foreach ($repositories as $key) {
 		$ProjectArray[]=getProjectObject($key);

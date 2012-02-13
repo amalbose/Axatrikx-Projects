@@ -9,6 +9,7 @@ class Project {
 	$projectLanguage="";
 	$projectCreatedDate="";
 	$projectPushDate="";
+	$projectForkType="";
 	}
 
 	public function setProjectDetails($detailArray){
@@ -22,6 +23,7 @@ class Project {
 		else{
 			$this->projectLanguage = "NA";
 		}
+		$this->projectForkType = $detailArray['fork'];
 		$this->projectCreatedDate = $detailArray['created_at'];
 		$this->projectPushDate = $detailArray['pushed_at'];
 	}
@@ -52,6 +54,10 @@ class Project {
 
 	function getProjectPushDate(){
 		return $this->projectPushDate;
+	}
+
+	function getForkType(){
+		return $this->projectForkType;
 	}
 
 }
