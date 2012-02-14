@@ -28,6 +28,10 @@ class Project {
 		$this->projectPushDate = $detailArray['pushed_at'];
 	}
 
+	function getForkType(){
+		return $this->projectForkType;
+	}
+
 	function getProjectName(){
 		return $this->projectName;
 	}
@@ -49,16 +53,16 @@ class Project {
 	}
 
 	function getProjectCreatedDate(){
-		return $this->projectCreatedDate;
+		$arrayCDate = explode(" ", $this->projectCreatedDate);
+		return $arrayCDate[0];
 	}
 
 	function getProjectPushDate(){
-		return $this->projectPushDate;
+		$arrayPDate = explode(" ", $this->projectPushDate);
+		return $arrayPDate[0];
 	}
 
-	function getForkType(){
-		return $this->projectForkType;
-	}
+
 
 }
 ?>

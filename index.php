@@ -11,7 +11,7 @@
 </HEAD>
 <BODY LANG="en-US" DIR="LTR">
 <BR>
-Hello Axatrikx Projects
+Welcome to Axatrikx Projects
 <BR>
 <div id='projectList'>
 <?php
@@ -20,6 +20,7 @@ $projects = getAllProjects();
 ?>
 	<div class='proheader narrowcurve'>
 	My Projects</div>
+	<div class='projecttype narrowcurve'>
 <?php
 foreach ($projects as $project) {
 
@@ -41,15 +42,39 @@ foreach ($projects as $project) {
 	echo "<div class='prodesc'>";
 	echo $project->getProjectDescription();
 	echo "</div>";
+	echo "<div class='procont'>";
+	echo "<div class='createD'>";
+	echo $project->getProjectCreatedDate();
+	echo "</div>";
+	echo "<div class='homeURL'>";
+	echo "<a href='";
+	echo $project->getProjectHomeURL();
+	echo "'  class='button white' >Home URL</a>";
+	echo "</div>";
+	echo "</div>";
+	echo "<div class='procont'>";
+	echo "<div class='postD'>";
+	echo $project->getProjectPushDate();
+	echo "</div>";
+	echo "<div class='URL'>";
+	echo "<a href='";
+	echo $project->getProjectURL();
+	echo "'  class='button white'>URL</a>";
+	echo "</div>";
+	echo "</div>";
 	
 	?>
 	</div> <!-- projects -->
+	
 	<?php
 	}
+	
 }
+?></div> <!--myprojects--><?php
 ?>
 	<div class='proheader narrowcurve'>
 	Forked Projects</div>
+	<div class='projecttype narrowcurve'>
 <?php
 foreach ($projects as $project) {
 
@@ -70,11 +95,33 @@ foreach ($projects as $project) {
 	echo "<div class='prodesc'>";
 	echo $project->getProjectDescription();
 	echo "</div>";
+	echo "<div class='procont'>";
+	echo "<div class='createD'>";
+	echo $project->getProjectCreatedDate();
+	echo "</div>";
+	echo "<div class='homeURL'>";
+	echo "<a href='";
+	echo $project->getProjectHomeURL();
+	echo "'  class='button white'>Home URL</a>";
+	echo "</div>";
+	echo "</div>";
+	echo "<div class='procont'>";
+	echo "<div class='postD'>";
+	echo $project->getProjectPushDate();
+	echo "</div>";
+	echo "<div class='URL '>";
+	echo "<a href='";
+	echo $project->getProjectURL();
+	echo "' class='button white' >URL</a>";
+	echo "</div>";
+	echo "</div>";
 	?>
 	</div> <!-- projects -->
 	<?php
 	}
+	
 }
+?></div> <!--myprojects--><?php
 ?>
 
 </div> <!-- projectList -->

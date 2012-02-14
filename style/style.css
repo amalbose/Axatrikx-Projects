@@ -37,7 +37,8 @@ body {
 	text-align: center;
 	text-decoration: none;
 	font: 14px/100% Arial, Helvetica, sans-serif;
-	padding: .5em 2em .55em;
+	padding: .5em 1em .55em;
+	width:75px;
 	text-shadow: 0 1px 1px rgba(0,0,0,.3);
 	-webkit-border-radius: .5em; 
 	-moz-border-radius: .5em;
@@ -71,7 +72,7 @@ body {
 #projectList{
 	margin:50px;
 	padding:30px;
-	width:850px;
+	width:900px;
 	margin-left:auto;
 	margin-right:auto;
 	background: #f1f1f1;
@@ -115,8 +116,9 @@ body {
 }
 
 .proheader{
-	background:#9acccd;
+	background:#311D14;
 	padding:10px;
+	color: #fff;
 	text-transform:uppercase;
 }
 
@@ -127,4 +129,18 @@ body {
 .prolang {
 	float: right;
 	text-transform:uppercase;
+}
+
+.projecttype{
+	background:#e4dcca;
+	margin: 5px;
+}
+
+.createD, .URL,.postD,.homeURL{
+	display: inline-block;
+	height:35px;
+}
+
+.URL,.homeURL{
+	float:right;
 }
