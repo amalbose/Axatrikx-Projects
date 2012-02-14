@@ -1,19 +1,35 @@
 <?php
 include_once("Project.php");
-
+$CACHE_FILE_NAME="cache.json";
 function getAllProjects(){
 
 	$ProjectArray = array();
-
-	$jsonResults =  json_decode(get_content_from_github('http://github.com/api/v2/json/repos/show/Axatrikx/'),true);
+	$jsonString = get_content_from_github('http://github.com/api/v2/json/repos/show/Axatrikx/');
+	$jsonResults =  json_decode($jsonString,true);
 
 	$repositories=$jsonResults['repositories'];
 	$noOfRepositories = sizeof($repositories);
-
-	foreach ($repositories as $key) {
-		$ProjectArray[]=getProjectObject($key);
+	if($noOfRepositories>0){
+		foreach ($repositories as $key) {
+			$ProjectArray[]=getProjectObject($key);
+			$fp = fopen('cache.json', 'w');
+			fwrite($fp, $jsonString);
+			fclose($fp);
+		}
 	}
+	else {
+		try{
+			$string = file_get_contents("cache.json");
+			$ProjectArray=json_decode($string,true);
+		}
+		catch(Exception $e){
+			$ProjectArray="";
+		}
+		
+	}
+		
 	return $ProjectArray;
+
 }
 
 /* gets url */

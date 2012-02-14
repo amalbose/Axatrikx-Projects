@@ -71,7 +71,7 @@ body {
 #projectList{
 	margin:50px;
 	padding:30px;
-	width:700px;
+	width:850px;
 	margin-left:auto;
 	margin-right:auto;
 	background: #f1f1f1;
@@ -89,14 +89,9 @@ body {
 	-webkit-box-shadow: 0 1px 2px rgba(0,2,3,.2);
 	-moz-box-shadow: 0 1px 2px rgba(0,2,3,.2);
 	box-shadow: 0 1px 2px rgba(0,2,3,.2);
-}
-
-.projects:nth-child(even) {
 	background: #fffcdf;
-}
-
-.projects:nth-child(odd) {
-	background: #edf6ae;
+	width:350px;
+	display: inline-block;
 }
 
 .proname{
@@ -104,6 +99,7 @@ body {
 	padding:5px;
 	margin:0px;
 	margin-bottom: 5px;
+	width:100%;
 }
 
 .curve {
@@ -113,13 +109,22 @@ body {
 }
 
 .narrowcurve {
-	-webkit-border-radius: 0.8em; 
-	-moz-border-radius: 0.8em;
-	border-radius: 0.8em;
+	-webkit-border-radius: 0.2em; 
+	-moz-border-radius: 0.2em;
+	border-radius: 0.2em;
 }
 
 .proheader{
 	background:#9acccd;
 	padding:10px;
+	text-transform:uppercase;
+}
+
+.prolang, .prourl {
+	display: inline-block;
+}
+
+.prolang {
+	float: right;
 	text-transform:uppercase;
 }

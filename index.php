@@ -26,20 +26,22 @@ foreach ($projects as $project) {
 	if(!$project->getForkType()){
 	?> 
 
-	<div class="projects curve" >
+	<div class="projects narrowcurve" >
 	<?php 
 	echo "<div class='proname narrowcurve'>";
 	echo "<div class='prourl'><a href='";
 	echo $project->getProjectURL();
 	echo "' >";
 	echo strtoupper($project->getProjectName());
-	echo "</a></div></div>";
+	echo "</a></div>";
+	echo "<div class='prolang'>";
+	echo $project->getProjectLanguage();
+	echo "</div>";
+	echo "</div>";
 	echo "<div class='prodesc'>";
 	echo $project->getProjectDescription();
 	echo "</div>";
-	echo "<div class='prolang'>Lang: ";
-	echo $project->getProjectLanguage();
-	echo "</div>";
+	
 	?>
 	</div> <!-- projects -->
 	<?php
@@ -53,22 +55,20 @@ foreach ($projects as $project) {
 
 	if($project->getForkType()){
 	?> 
-	<div class="projects curve" >
+	<div class="projects narrowcurve" >
 	<?php 
 	echo "<div class='proname narrowcurve'>";
 	echo "<div class='prourl'><a href='";
 	echo $project->getProjectURL();
 	echo "' >";
 	echo strtoupper($project->getProjectName());
-	echo "</a></div></div>";
+	echo "</a></div>";
+	echo "<div class='prolang'>";
+	echo $project->getProjectLanguage();
+	echo "</div>";
+	echo "</div>";
 	echo "<div class='prodesc'>";
 	echo $project->getProjectDescription();
-	echo "</div>";
-	echo "<div class='prourl'><a href='";
-	echo $project->getProjectURL();
-	echo "' >Project Home </a></div>";
-	echo "<div class='prolang'>Lang: ";
-	echo $project->getProjectLanguage();
 	echo "</div>";
 	?>
 	</div> <!-- projects -->
