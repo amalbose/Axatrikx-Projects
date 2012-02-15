@@ -16,6 +16,7 @@ Welcome to Axatrikx Projects
 <div id='projectList'>
 <?php
 include_once("Axagit.php");
+error_reporting(0);
 $projects = getAllProjects();
 ?>
 	<div class='proheader narrowcurve'>
