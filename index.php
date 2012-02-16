@@ -10,9 +10,11 @@
 
 </HEAD>
 <BODY LANG="en-US" DIR="LTR">
-<BR>
+<div id='title'>
+<h1>
 Welcome to Axatrikx Projects
-<BR>
+</h1>
+</div>
 
 <?php
 include_once ("Axagit.php");
@@ -62,7 +64,7 @@ foreach ($projects as $project) {
 		echo "<div class='URL'>";
 		echo "<a href='";
 		echo $project->getProjectURL();
-		echo "'  class='button white'>URL</a>";
+		echo "'  class='button white'>Github URL</a>";
 		echo "</div>";
 		echo "</div>";
 ?>
@@ -118,7 +120,7 @@ foreach ($projects as $project) {
 		echo "<div class='URL '>";
 		echo "<a href='";
 		echo $project->getProjectURL();
-		echo "' class='button white' >URL</a>";
+		echo "' class='button white' >Github URL</a>";
 		echo "</div>";
 		echo "</div>";
 ?>
@@ -133,7 +135,6 @@ foreach ($projects as $project) {
 ?>
 
 </div> <!-- projectList -->
-<a href="http://axatrikx.com" class="button white" >Axatrikx</a>
 
 </BODY>
 </HTML>
