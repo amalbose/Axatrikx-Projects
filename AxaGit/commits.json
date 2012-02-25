@@ -1,0 +1,93 @@
+{
+  "files": [
+    {
+      "status": "modified",
+      "raw_url": "https://github.com/axatrikx/Axatrikx-Projects/raw/3a1abfd9e280aefc2afaa3be388f64022f468d70/README.md",
+      "blob_url": "https://github.com/axatrikx/Axatrikx-Projects/blob/3a1abfd9e280aefc2afaa3be388f64022f468d70/README.md",
+      "changes": 4,
+      "sha": "3a1abfd9e280aefc2afaa3be388f64022f468d70",
+      "filename": "README.md",
+      "additions": 2,
+      "patch": "@@ -4,7 +4,7 @@ Axatrikx Project\n A PHP website which retrieves all existing repositories from a github user.\n Makes use of Github API v3\n \n-Website: [http://axatrikx.com](http://projects.axatrikx.com)  \n+Website: [http://projects.axatrikx.com](http://projects.axatrikx.com)  \n \n Details\n -----------\n@@ -13,4 +13,4 @@ The details of the project:\n \n * A private project as of now, just for getting all my github projects on my website\n \n-(Readme file under construction...)\n\\ No newline at end of file\n+(Readme file under construction...)",
+      "deletions": 2
+    },
+    {
+      "status": "modified",
+      "raw_url": "https://github.com/axatrikx/Axatrikx-Projects/raw/3a1abfd9e280aefc2afaa3be388f64022f468d70/cache.json",
+      "blob_url": "https://github.com/axatrikx/Axatrikx-Projects/blob/3a1abfd9e280aefc2afaa3be388f64022f468d70/cache.json",
+      "changes": 2,
+      "sha": "3a1abfd9e280aefc2afaa3be388f64022f468d70",
+      "filename": "cache.json",
+      "additions": 1,
+      "patch": "@@ -1 +1 @@\n-{\"repositories\":[{\"url\":\"https://github.com/axatrikx/Selenium-Grid-Automator\",\"watchers\":1,\"created_at\":\"2012/01/07 21:57:25 -0800\",\"description\":\"A tool for automating selenium grid tasks\",\"has_wiki\":true,\"fork\":false,\"forks\":1,\"open_issues\":0,\"homepage\":\"http://axatrikx.com\",\"size\":160,\"private\":false,\"name\":\"Selenium-Grid-Automator\",\"owner\":\"axatrikx\",\"has_issues\":true,\"has_downloads\":true,\"language\":\"Java\",\"pushed_at\":\"2012/01/11 08:45:31 -0800\"},{\"url\":\"https://github.com/axatrikx/impress.js\",\"watchers\":1,\"created_at\":\"2012/01/08 01:42:58 -0800\",\"description\":\"It's a presentation framework based on the power of CSS3 transforms and transitions in modern browsers and inspired by the idea behind prezi.com.\",\"has_wiki\":false,\"fork\":true,\"forks\":0,\"open_issues\":0,\"homepage\":\"http://bartaz.github.com/impress.js\",\"size\":140,\"private\":false,\"name\":\"impress.js\",\"owner\":\"axatrikx\",\"has_issues\":false,\"has_downloads\":true,\"language\":\"JavaScript\",\"pushed_at\":\"2012/01/04 14:53:52 -0800\"},{\"url\":\"https://github.com/axatrikx/Axatrikx-Projects\",\"watchers\":1,\"created_at\":\"2012/01/08 04:42:31 -0800\",\"description\":\"Axatrikx website development\",\"has_wiki\":true,\"fork\":false,\"forks\":1,\"open_issues\":0,\"homepage\":\"http://axatrikx.com\",\"size\":200,\"private\":false,\"name\":\"Axatrikx-Projects\",\"owner\":\"axatrikx\",\"has_issues\":true,\"has_downloads\":true,\"language\":\"PHP\",\"pushed_at\":\"2012/02/15 07:31:06 -0800\"},{\"url\":\"https://github.com/axatrikx/AxaTweet\",\"watchers\":1,\"created_at\":\"2012/02/04 22:37:55 -0800\",\"description\":\"A twitter client by Axatrikx\",\"has_wiki\":true,\"fork\":false,\"forks\":1,\"open_issues\":0,\"homepage\":\"http://axatrikx.com\",\"size\":112,\"private\":false,\"name\":\"AxaTweet\",\"owner\":\"axatrikx\",\"has_issues\":true,\"has_downloads\":true,\"language\":\"Python\",\"pushed_at\":\"2012/02/14 07:30:21 -0800\"}]}\n\\ No newline at end of file\n+{\"repositories\":[{\"url\":\"https://github.com/axatrikx/Selenium-Grid-Automator\",\"watchers\":1,\"open_issues\":0,\"created_at\":\"2012/01/07 21:57:25 -0800\",\"description\":\"A tool for automating selenium grid tasks\",\"pushed_at\":\"2012/01/11 08:45:31 -0800\",\"fork\":false,\"has_downloads\":true,\"homepage\":\"http://axatrikx.com\",\"size\":160,\"private\":false,\"name\":\"Selenium-Grid-Automator\",\"owner\":\"axatrikx\",\"has_issues\":true,\"has_wiki\":true,\"forks\":1,\"language\":\"Java\"},{\"url\":\"https://github.com/axatrikx/impress.js\",\"watchers\":1,\"open_issues\":0,\"created_at\":\"2012/01/08 01:42:58 -0800\",\"description\":\"It's a presentation framework based on the power of CSS3 transforms and transitions in modern browsers and inspired by the idea behind prezi.com.\",\"pushed_at\":\"2012/01/04 14:53:52 -0800\",\"fork\":true,\"has_downloads\":true,\"homepage\":\"http://bartaz.github.com/impress.js\",\"size\":140,\"private\":false,\"name\":\"impress.js\",\"owner\":\"axatrikx\",\"has_issues\":false,\"has_wiki\":false,\"forks\":0,\"language\":\"JavaScript\"},{\"url\":\"https://github.com/axatrikx/Axatrikx-Projects\",\"watchers\":1,\"open_issues\":0,\"created_at\":\"2012/01/08 04:42:31 -0800\",\"description\":\"Axatrikx website development\",\"pushed_at\":\"2012/02/16 07:30:57 -0800\",\"fork\":false,\"has_downloads\":true,\"homepage\":\"http://axatrikx.com\",\"size\":208,\"private\":false,\"name\":\"Axatrikx-Projects\",\"owner\":\"axatrikx\",\"has_issues\":true,\"has_wiki\":true,\"forks\":1,\"language\":\"PHP\"},{\"url\":\"https://github.com/axatrikx/AxaTweet\",\"watchers\":1,\"open_issues\":0,\"created_at\":\"2012/02/04 22:37:55 -0800\",\"description\":\"A twitter client by Axatrikx\",\"pushed_at\":\"2012/02/14 07:30:21 -0800\",\"fork\":false,\"has_downloads\":true,\"homepage\":\"http://axatrikx.com\",\"size\":112,\"private\":false,\"name\":\"AxaTweet\",\"owner\":\"axatrikx\",\"has_issues\":true,\"has_wiki\":true,\"forks\":1,\"language\":\"Python\"}]}\n\\ No newline at end of file",
+      "deletions": 1
+    },
+    {
+      "status": "modified",
+      "raw_url": "https://github.com/axatrikx/Axatrikx-Projects/raw/3a1abfd9e280aefc2afaa3be388f64022f468d70/index.php",
+      "blob_url": "https://github.com/axatrikx/Axatrikx-Projects/blob/3a1abfd9e280aefc2afaa3be388f64022f468d70/index.php",
+      "changes": 11,
+      "sha": "3a1abfd9e280aefc2afaa3be388f64022f468d70",
+      "filename": "index.php",
+      "additions": 6,
+      "patch": "@@ -10,9 +10,11 @@\n \n </HEAD>\n <BODY LANG=\"en-US\" DIR=\"LTR\">\n-<BR>\n+<div id='title'>\n+<h1>\n Welcome to Axatrikx Projects\n-<BR>\n+</h1>\n+</div>\n \n <?php\n include_once (\"Axagit.php\");\n@@ -62,7 +64,7 @@\n \t\techo \"<div class='URL'>\";\n \t\techo \"<a href='\";\n \t\techo $project->getProjectURL();\n-\t\techo \"'  class='button white'>URL</a>\";\n+\t\techo \"'  class='button white'>Github URL</a>\";\n \t\techo \"</div>\";\n \t\techo \"</div>\";\n ?>\n@@ -118,7 +120,7 @@\n \t\techo \"<div class='URL '>\";\n \t\techo \"<a href='\";\n \t\techo $project->getProjectURL();\n-\t\techo \"' class='button white' >URL</a>\";\n+\t\techo \"' class='button white' >Github URL</a>\";\n \t\techo \"</div>\";\n \t\techo \"</div>\";\n ?>\n@@ -133,7 +135,6 @@\n ?>\n \n </div> <!-- projectList -->\n-<a href=\"http://axatrikx.com\" class=\"button white\" >Axatrikx</a>\n \n </BODY>\n </HTML>",
+      "deletions": 5
+    },
+    {
+      "status": "modified",
+      "raw_url": "https://github.com/axatrikx/Axatrikx-Projects/raw/3a1abfd9e280aefc2afaa3be388f64022f468d70/style/style.css",
+      "blob_url": "https://github.com/axatrikx/Axatrikx-Projects/blob/3a1abfd9e280aefc2afaa3be388f64022f468d70/style/style.css",
+      "changes": 13,
+      "sha": "3a1abfd9e280aefc2afaa3be388f64022f468d70",
+      "filename": "style/style.css",
+      "additions": 13,
+      "patch": "@@ -143,4 +143,17 @@ body {\n \n .URL,.homeURL{\n \tfloat:right;\n+}\n+\n+#title{\n+\tposition:relative;\n+\tmargin-left:auto;\n+\tmargin-right:auto;\n+\ttext-align: center;\n+\tmargin:30px 0px 30px 0px;\n+}\n+.prodesc{\n+\tpadding:10px;\n+\tpadding-top: 20px;\n+\tpadding-bottom: 20px;\n }\n\\ No newline at end of file",
+      "deletions": 0
+    }
+  ],
+  "author": {
+    "login": "axatrikx",
+    "avatar_url": "https://secure.gravatar.com/avatar/55bd307d88d2bfc5b742cbec5dd628e2?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-140.png",
+    "url": "https://api.github.com/users/axatrikx",
+    "gravatar_id": "55bd307d88d2bfc5b742cbec5dd628e2",
+    "id": 1312360
+  },
+  "commit": {
+    "message": "Edited README file",
+    "author": {
+      "email": "axatrikx@gmail.com",
+      "name": "Amal Bose",
+      "date": "2012-02-16T08:32:13-08:00"
+    },
+    "tree": {
+      "sha": "e1b6ca2c8f72ae4e431fa229fa3f85d44cafcd78",
+      "url": "https://api.github.com/repos/axatrikx/Axatrikx-Projects/git/trees/e1b6ca2c8f72ae4e431fa229fa3f85d44cafcd78"
+    },
+    "url": "https://api.github.com/repos/axatrikx/Axatrikx-Projects/git/commits/3a1abfd9e280aefc2afaa3be388f64022f468d70",
+    "committer": {
+      "email": "axatrikx@gmail.com",
+      "name": "Amal Bose",
+      "date": "2012-02-16T08:32:13-08:00"
+    }
+  },
+  "parents": [
+    {
+      "sha": "107634807dde10c2d7dfe069b039c7f09bbc1f45",
+      "url": "https://api.github.com/repos/axatrikx/Axatrikx-Projects/commits/107634807dde10c2d7dfe069b039c7f09bbc1f45"
+    }
+  ],
+  "sha": "3a1abfd9e280aefc2afaa3be388f64022f468d70",
+  "committer": {
+    "login": "axatrikx",
+    "avatar_url": "https://secure.gravatar.com/avatar/55bd307d88d2bfc5b742cbec5dd628e2?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-140.png",
+    "url": "https://api.github.com/users/axatrikx",
+    "gravatar_id": "55bd307d88d2bfc5b742cbec5dd628e2",
+    "id": 1312360
+  },
+  "url": "https://api.github.com/repos/axatrikx/Axatrikx-Projects/commits/3a1abfd9e280aefc2afaa3be388f64022f468d70",
+  "stats": {
+    "additions": 22,
+    "deletions": 8,
+    "total": 30
+  }
+}
