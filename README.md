@@ -13,4 +13,7 @@ The details of the project:
 
 * A private project as of now, just for getting all my github projects on my website
 
-(Readme file under construction...)
+* Uses Github API for accessing project details
+
+* Uses python urllib for accessing README.md file
+
