@@ -26,6 +26,7 @@ $projects = getAllProjects();
 	<div class='projecttype narrowcurve'>
 <?php
 
+
 foreach ($projects as $project) {
 
 	if (!$project->getForkType()) {
@@ -33,6 +34,7 @@ foreach ($projects as $project) {
 
 	<div class="projects narrowcurve" >
 	<?php
+
 
 		echo "<div class='proname narrowcurve'>";
 		echo "<div class='prourl'><a href='";
@@ -72,6 +74,7 @@ foreach ($projects as $project) {
 	
 	<?php
 
+
 	}
 
 }
@@ -83,12 +86,14 @@ foreach ($projects as $project) {
 	<div class='projecttype narrowcurve'>
 <?php
 
+
 foreach ($projects as $project) {
 
 	if ($project->getForkType()) {
 ?> 
 	<div class="projects narrowcurve" >
 	<?php
+
 
 		echo "<div class='proname narrowcurve'>";
 		echo "<div class='prourl'><a href='";
@@ -126,6 +131,7 @@ foreach ($projects as $project) {
 ?>
 	</div> <!-- projects -->
 	<?php
+
 
 	}
 

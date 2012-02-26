@@ -18,10 +18,10 @@ function getAllProjects() {
 		fclose($fp);
 	} else {
 		try {
-			$line="";
+			$line = "";
 			$file_handle = fopen("cache.json", "r");
 			while (!feof($file_handle)) {
-				$line.= fgets($file_handle);
+				$line .= fgets($file_handle);
 			}
 			fclose($file_handle);
 			$jsonResults1 = json_decode($line, true);
